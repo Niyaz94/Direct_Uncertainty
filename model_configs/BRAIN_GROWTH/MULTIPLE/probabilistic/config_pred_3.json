@@ -1,0 +1,12 @@
+{
+    "network_type": "2d",
+    "architecture_name": "Probabilistic_UNet",
+    "encoder_type": "resnet34",
+    "disable_tta": false,
+    "input_folder": "/U-Net/data/BRAIN_GROWTH/MULTIPLE/imagesTs",
+    "output_folder": "/U-Net/predictions/BRAIN_GROWTH/MULTIPLE/probabilistic/fold3",
+    "plans_file_path": "/U-Net/data/BRAIN_GROWTH/MULTIPLE/preprocessed/nnUNetPlansv2.1_plans_2D.pkl",
+    "checkpoints": {
+        "1": "/U-Net/models/BRAIN_GROWTH/MULTIPLE/probabilistic/fold_3_model_best.model"
+    }
+}

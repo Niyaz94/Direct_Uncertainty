@@ -1,0 +1,12 @@
+{
+    "network_type": "2d",
+    "architecture_name": "Hierarchical_Prob_UNet",
+    "encoder_type": "resnet34",
+    "disable_tta": false,
+    "input_folder": "/U-Net/data/KNEE/MULTIPLE/imagesTs",
+    "output_folder": "/U-Net/predictions/KNEE/MULTIPLE/hier_probabilistic/fold2",
+    "plans_file_path": "/U-Net/data/KNEE/MULTIPLE/preprocessed/nnUNetPlansv2.1_plans_2D.pkl",
+    "checkpoints": {
+        "1": "/U-Net/models/KNEE/MULTIPLE/hier_probabilistic/fold_2_model_best.model"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "network_type": "3d_fullres",
+    "architecture_name": "Bayesian_UNet",
+    "encoder_type": "resnet34",
+    "disable_tta": false,
+    "input_folder": "/U-Net/data/PANCREAS/SINGLE/imagesTs",
+    "output_folder": "/U-Net/predictions/PANCREAS/SINGLE/bayesian/fold0",
+    "plans_file_path": "/U-Net/data/PANCREAS/SINGLE/preprocessed/nnUNetPlansv2.1_plans_3D.pkl",
+    "checkpoints": {
+        "1": "/U-Net/models/PANCREAS/SINGLE/bayesian/fold_0_model_best.model"
+    }
+}

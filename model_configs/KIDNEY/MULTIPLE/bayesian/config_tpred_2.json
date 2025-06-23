@@ -1,0 +1,12 @@
+{
+    "network_type": "2d",
+    "architecture_name": "Bayesian_UNet",
+    "encoder_type": "resnet34",
+    "disable_tta": false,
+    "input_folder": "/U-Net/data/KIDNEY/MULTIPLE/imagesTr",
+    "output_folder": "/U-Net/predictions/KIDNEY/MULTIPLE/bayesian/t_fold2",
+    "plans_file_path": "/U-Net/data/KIDNEY/MULTIPLE/preprocessed/nnUNetPlansv2.1_plans_2D.pkl",
+    "checkpoints": {
+        "1": "/U-Net/models/KIDNEY/MULTIPLE/bayesian/fold_2_model_best.model"
+    }
+}

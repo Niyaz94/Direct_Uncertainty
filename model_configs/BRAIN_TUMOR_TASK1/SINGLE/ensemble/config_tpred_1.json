@@ -1,0 +1,12 @@
+{
+    "network_type": "2d",
+    "architecture_name": "Generic_UNet",
+    "encoder_type": "resnet34",
+    "disable_tta": false,
+    "input_folder": "/U-Net/data/BRAIN_TUMOR_TASK1/SINGLE/imagesTr",
+    "output_folder": "/U-Net/predictions/BRAIN_TUMOR_TASK1/SINGLE/ensemble/t_fold1",
+    "plans_file_path": "/U-Net/data/BRAIN_TUMOR_TASK1/SINGLE/preprocessed/nnUNetPlansv2.1_plans_2D.pkl",
+    "checkpoints": {
+        "1": "/U-Net/models/BRAIN_TUMOR_TASK1/SINGLE/ensemble/fold_1_model_best.model"
+    }
+}

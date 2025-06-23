@@ -1,0 +1,12 @@
+{
+    "network_type": "3d_fullres",
+    "architecture_name": "Probabilistic_UNet",
+    "encoder_type": "resnet34",
+    "disable_tta": false,
+    "input_folder": "/U-Net/data/LUNG/MULTIPLE/imagesTs",
+    "output_folder": "/U-Net/predictions/LUNG/MULTIPLE/probabilistic/fold3",
+    "plans_file_path": "/U-Net/data/LUNG/MULTIPLE/preprocessed/nnUNetPlansv2.1_plans_3D.pkl",
+    "checkpoints": {
+        "1": "/U-Net/models/LUNG/MULTIPLE/probabilistic/fold_3_model_best.model"
+    }
+}

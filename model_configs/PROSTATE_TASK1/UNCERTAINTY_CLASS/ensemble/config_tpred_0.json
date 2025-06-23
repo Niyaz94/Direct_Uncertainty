@@ -1,0 +1,12 @@
+{
+    "network_type": "2d",
+    "architecture_name": "Generic_UNet",
+    "encoder_type": "resnet34",
+    "disable_tta": false,
+    "input_folder": "/U-Net/data/PROSTATE_TASK1/UNCERTAINTY_CLASS/imagesTr",
+    "output_folder": "/U-Net/predictions/PROSTATE_TASK1/UNCERTAINTY_CLASS/ensemble/t_fold0",
+    "plans_file_path": "/U-Net/data/PROSTATE_TASK1/UNCERTAINTY_CLASS/preprocessed/nnUNetPlansv2.1_plans_2D.pkl",
+    "checkpoints": {
+        "1": "/U-Net/models/PROSTATE_TASK1/UNCERTAINTY_CLASS/ensemble/fold_0_model_best.model"
+    }
+}

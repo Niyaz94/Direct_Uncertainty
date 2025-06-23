@@ -1,0 +1,12 @@
+{
+    "network_type": "3d_fullres",
+    "architecture_name": "Hierarchical_Prob_UNet",
+    "encoder_type": "resnet34",
+    "disable_tta": false,
+    "input_folder": "/U-Net/data/PANCREAS/SINGLE/imagesTr",
+    "output_folder": "/U-Net/predictions/PANCREAS/SINGLE/hier_probabilistic/t_fold3",
+    "plans_file_path": "/U-Net/data/PANCREAS/SINGLE/preprocessed/nnUNetPlansv2.1_plans_3D.pkl",
+    "checkpoints": {
+        "1": "/U-Net/models/PANCREAS/SINGLE/hier_probabilistic/fold_3_model_best.model"
+    }
+}

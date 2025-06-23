@@ -1,0 +1,23 @@
+{
+    "fold": 0,
+    "random_state": 12345,
+    "plans_file_path": "/U-Net/data/LUNG/MULTIPLE/preprocessed/nnUNetPlansv2.1_plans_3D.pkl",
+    "folder_with_preprocessed_data": "/U-Net/data/LUNG/MULTIPLE/preprocessed/nnUNetData_plans_v2.1_stage0",
+    "deep_supervision": false,
+    "output_folder": "/U-Net/models/LUNG/MULTIPLE/bayesian/",
+    "log_file": "/U-Net/results/LUNG/MULTIPLE/bayesian/loss/fold0_log.txt",
+    "network_type": "3d_fullres",
+    "architecture_name": "Bayesian_UNet",
+    "encoder_type": "resnet34",
+    "initial_lr": 0.1,
+    "momentum": 0.99,
+    "nesterov": true,
+    "numOfEpochs": 5000,
+    "tr_batches_per_epoch": 250,
+    "val_batches_per_epoch": 50,
+    "checkpoint_frequency": 10,
+    "continue_training": false,
+    "checkpoint": "/U-Net/models/LUNG/MULTIPLE/bayesian/fold_0_model_best.model",
+    "num_of_samples": 10,
+    "save_dir": "/U-Net/predictions/LUNG/MULTIPLE/bayesian/"
+}

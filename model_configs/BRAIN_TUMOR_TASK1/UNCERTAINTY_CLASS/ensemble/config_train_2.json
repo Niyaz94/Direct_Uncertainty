@@ -1,0 +1,23 @@
+{
+    "fold": 2,
+    "random_state": 12345,
+    "plans_file_path": "/U-Net/data/BRAIN_TUMOR_TASK1/UNCERTAINTY_CLASS/preprocessed/nnUNetPlansv2.1_plans_2D.pkl",
+    "folder_with_preprocessed_data": "/U-Net/data/BRAIN_TUMOR_TASK1/UNCERTAINTY_CLASS/preprocessed/nnUNetData_plans_v2.1_2D_stage0",
+    "deep_supervision": false,
+    "output_folder": "/U-Net/models/BRAIN_TUMOR_TASK1/UNCERTAINTY_CLASS/ensemble/",
+    "log_file": "/U-Net/results/BRAIN_TUMOR_TASK1/UNCERTAINTY_CLASS/ensemble/loss/fold2_log.txt",
+    "network_type": "2d",
+    "architecture_name": "Generic_UNet",
+    "encoder_type": "resnet34",
+    "initial_lr": 0.1,
+    "momentum": 0.99,
+    "nesterov": true,
+    "numOfEpochs": 5000,
+    "tr_batches_per_epoch": 250,
+    "val_batches_per_epoch": 50,
+    "checkpoint_frequency": 10,
+    "continue_training": false,
+    "checkpoint": "/U-Net/models/BRAIN_TUMOR_TASK1/UNCERTAINTY_CLASS/ensemble/fold_2_model_best.model",
+    "num_of_samples": 10,
+    "save_dir": "/U-Net/predictions/BRAIN_TUMOR_TASK1/UNCERTAINTY_CLASS/ensemble/"
+}

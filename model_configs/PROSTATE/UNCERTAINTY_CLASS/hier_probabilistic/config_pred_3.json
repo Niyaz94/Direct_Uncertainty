@@ -1,0 +1,12 @@
+{
+    "network_type": "2d",
+    "architecture_name": "Hierarchical_Prob_UNet",
+    "encoder_type": "resnet34",
+    "disable_tta": false,
+    "input_folder": "/U-Net/data/PROSTATE/UNCERTAINTY_CLASS/imagesTs",
+    "output_folder": "/U-Net/predictions/PROSTATE/UNCERTAINTY_CLASS/hier_probabilistic/fold3",
+    "plans_file_path": "/U-Net/data/PROSTATE/UNCERTAINTY_CLASS/preprocessed/nnUNetPlansv2.1_plans_2D.pkl",
+    "checkpoints": {
+        "1": "/U-Net/models/PROSTATE/UNCERTAINTY_CLASS/hier_probabilistic/fold_3_model_best.model"
+    }
+}

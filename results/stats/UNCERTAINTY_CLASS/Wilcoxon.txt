@@ -1,0 +1,36 @@
+########################
+KIDNEY WilcoxonResult(statistic=0.0, pvalue=0.0625) WilcoxonResult(statistic=0.0, pvalue=0.0625) WilcoxonResult(statistic=4.0, pvalue=0.4375)
+KIDNEY WilcoxonResult(statistic=0.0, pvalue=0.0625) WilcoxonResult(statistic=0.0, pvalue=0.0625) WilcoxonResult(statistic=2.0, pvalue=0.1875)
+########################
+KNEE WilcoxonResult(statistic=6.0, pvalue=0.02734375) WilcoxonResult(statistic=26.0, pvalue=0.921875) WilcoxonResult(statistic=7.0, pvalue=0.037109375)
+KNEE WilcoxonResult(statistic=0.0, pvalue=0.001953125) WilcoxonResult(statistic=0.0, pvalue=0.001953125) WilcoxonResult(statistic=17.0, pvalue=0.322265625)
+########################
+PROSTATE WilcoxonResult(statistic=9.0, pvalue=0.0322265625) WilcoxonResult(statistic=8.0, pvalue=0.0244140625) WilcoxonResult(statistic=13.0, pvalue=0.0830078125)
+PROSTATE WilcoxonResult(statistic=16.0, pvalue=0.24112136827741826) WilcoxonResult(statistic=11.0, pvalue=0.09260069782067576) WilcoxonResult(statistic=27.0, pvalue=0.9593536340401635)
+PROSTATE WilcoxonResult(statistic=0.0, pvalue=0.0009765625) WilcoxonResult(statistic=0.0, pvalue=0.0009765625) WilcoxonResult(statistic=0.0, pvalue=0.0009765625)
+########################
+BRAIN_GROWTH WilcoxonResult(statistic=0.0, pvalue=0.0078125) WilcoxonResult(statistic=1.0, pvalue=0.015625) WilcoxonResult(statistic=17.0, pvalue=0.9453125)
+BRAIN_GROWTH WilcoxonResult(statistic=0.0, pvalue=0.0078125) WilcoxonResult(statistic=0.0, pvalue=0.0078125) WilcoxonResult(statistic=1.0, pvalue=0.015625)
+########################
+PANCREAS WilcoxonResult(statistic=14.0, pvalue=0.05224609375) WilcoxonResult(statistic=23.0, pvalue=0.2333984375) WilcoxonResult(statistic=22.0, pvalue=0.20361328125)
+PANCREAS WilcoxonResult(statistic=17.0, pvalue=0.09228515625) WilcoxonResult(statistic=31.0, pvalue=0.5693359375) WilcoxonResult(statistic=9.0, pvalue=0.01611328125)
+########################
+SIJ WilcoxonResult(statistic=84.0, pvalue=0.2735753578226747) WilcoxonResult(statistic=130.0, pvalue=0.8077578019309388) WilcoxonResult(statistic=114.0, pvalue=0.4654153212400317)
+SIJ WilcoxonResult(statistic=272.0, pvalue=1.683984830485597e-07) WilcoxonResult(statistic=237.0, pvalue=7.87077110594134e-08) WilcoxonResult(statistic=1020.0, pvalue=0.8936001916804368)
+########################
+LUNG WilcoxonResult(statistic=13646.0, pvalue=0.0026447127626034427) WilcoxonResult(statistic=12790.0, pvalue=0.00015379015971106442) WilcoxonResult(statistic=13564.0, pvalue=0.011552369670244988)
+LUNG WilcoxonResult(statistic=7.0, pvalue=1.1325598492617364e-45) WilcoxonResult(statistic=3.0, pvalue=1.0828324407392384e-45) WilcoxonResult(statistic=4823.0, pvalue=4.38962139253483e-25)
+########################
+HEART WilcoxonResult(statistic=100.0, pvalue=0.25945234298706055) WilcoxonResult(statistic=82.0, pvalue=0.09175300598144531) WilcoxonResult(statistic=130.0, pvalue=0.8229274749755859)
+HEART WilcoxonResult(statistic=15.0, pvalue=3.266334533691406e-05) WilcoxonResult(statistic=49.0, pvalue=0.005414485931396484) WilcoxonResult(statistic=19.0, pvalue=7.319450378417969e-05)
+HEART WilcoxonResult(statistic=0.0, pvalue=2.384185791015625e-07) WilcoxonResult(statistic=0.0, pvalue=2.384185791015625e-07) WilcoxonResult(statistic=42.0, pvalue=0.0024156570434570312)
+########################
+########################
+PROSTATE_TASK1 WilcoxonResult(statistic=0.0, pvalue=0.0009765625) WilcoxonResult(statistic=1.0, pvalue=0.001953125) WilcoxonResult(statistic=30.0, pvalue=0.8310546875)
+PROSTATE_TASK1 WilcoxonResult(statistic=0.0, pvalue=0.0009765625) WilcoxonResult(statistic=0.0, pvalue=0.0009765625) WilcoxonResult(statistic=18.0, pvalue=0.2060546875)
+########################
+PROSTATE_TASK2 WilcoxonResult(statistic=30.0, pvalue=0.8310546875) WilcoxonResult(statistic=18.0, pvalue=0.2060546875) WilcoxonResult(statistic=14.0, pvalue=0.1015625)
+PROSTATE_TASK2 WilcoxonResult(statistic=0.0, pvalue=0.0009765625) WilcoxonResult(statistic=0.0, pvalue=0.0009765625) WilcoxonResult(statistic=4.0, pvalue=0.0068359375)
+########################
+BRAIN_TUMOR_TASK1 WilcoxonResult(statistic=12.0, pvalue=0.8125) WilcoxonResult(statistic=10.0, pvalue=0.578125) WilcoxonResult(statistic=11.0, pvalue=0.6875)
+BRAIN_TUMOR_TASK1 WilcoxonResult(statistic=11.0, pvalue=0.6875) WilcoxonResult(statistic=1.0, pvalue=0.03125) WilcoxonResult(statistic=6.0, pvalue=0.21875)

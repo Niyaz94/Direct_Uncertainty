@@ -1,0 +1,12 @@
+{
+    "network_type": "3d_fullres",
+    "architecture_name": "Generic_UNet",
+    "encoder_type": "resnet34",
+    "disable_tta": false,
+    "input_folder": "/U-Net/data/LUNG/MULTIPLE/imagesTs",
+    "output_folder": "/U-Net/predictions/LUNG/MULTIPLE/ensemble/fold4",
+    "plans_file_path": "/U-Net/data/LUNG/MULTIPLE/preprocessed/nnUNetPlansv2.1_plans_3D.pkl",
+    "checkpoints": {
+        "1": "/U-Net/models/LUNG/MULTIPLE/ensemble/fold_4_model_best.model"
+    }
+}

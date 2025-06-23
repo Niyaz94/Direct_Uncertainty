@@ -1,0 +1,12 @@
+{
+    "network_type": "3d_fullres",
+    "architecture_name": "Probabilistic_UNet",
+    "encoder_type": "resnet34",
+    "disable_tta": false,
+    "input_folder": "/U-Net/data/PANCREAS/MULTIPLE/imagesTs",
+    "output_folder": "/U-Net/predictions/PANCREAS/MULTIPLE/probabilistic/fold1",
+    "plans_file_path": "/U-Net/data/PANCREAS/MULTIPLE/preprocessed/nnUNetPlansv2.1_plans_3D.pkl",
+    "checkpoints": {
+        "1": "/U-Net/models/PANCREAS/MULTIPLE/probabilistic/fold_1_model_best.model"
+    }
+}
