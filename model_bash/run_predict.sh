@@ -7,9 +7,7 @@
 #SBATCH --ntasks-per-node=10
 #SBATCH --mem-per-cpu=8GB
 #SBATCH --time=48:00:00 
-#SBATCH -A plgaimed-gpu-a100
 
-#SBATCH -p plgrid-gpu-a100
 #SBATCH --gres=gpu
 #SBATCH --array=0-4
 
